@@ -82,14 +82,14 @@ When composing carousel copy — hooks, point titles, body, CTA — consult thes
 files and apply their thinking. They shape *how* the words are written; the FinLab rules
 above always win on conflict.
 
-- **`/Users/alexap/Desktop/agency-agents/marketing/marketing-carousel-growth-engine.md`** —
+- **`references/marketing-carousel-growth-engine.md`** —
   for hook psychology and narrative structure. Pull the scroll-stopping hook craft and the
   Hook → Problem → Agitation → Solution → Feature → CTA arc. (Adapt the arc to the requested
   slide count; the hook-in-slide-1 discipline always applies.)
-- **`/Users/alexap/Desktop/agency-agents/marketing/marketing-instagram-curator.md`** — for
+- **`references/marketing-instagram-curator.md`** — for
   Instagram-native voice, content-mix balance, hashtags, and CTA style that drives real
   engagement over vanity metrics.
-- **`/Users/alexap/Desktop/agency-agents/marketing/marketing-book-co-author.md`** — for voice
+- **`references/marketing-book-co-author.md`** — for voice
   fidelity and rigor: keep Olesya visible and specific, ban empty inspiration and generic
   business-book filler, one clear idea per section, concrete over abstract.
 
@@ -97,7 +97,7 @@ above always win on conflict.
 
 ## Profile Photo
 
-Use **Olesya's photo**: `image_2026-04-27_110223266.jpg` (from the finlab repo). It is a
+Use **Olesya's photo**: `carousel-assets/profile-olesya.jpg`. It is a
 full-length portrait, so crop it to a **circular headshot of her face** before use
 (`border-radius:50%` + `object-fit:cover` positioned on the face), rendered at 48px in
 callout headers.
