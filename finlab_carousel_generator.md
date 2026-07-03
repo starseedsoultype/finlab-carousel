@@ -272,10 +272,18 @@ empty/quiet areas are. Then:
 - **On a full-bleed portrait (a person), place the text in the LOWER portion of the frame** —
   the bottom third, or a solid color band at the bottom. Faces sit in the upper half, so a
   top-anchored headline lands on the head. Keep the headline low and clear of the face.
-- **Always darken the photo behind text with a strong scrim.** Text over ANY photo — even a
-  light, airy one — needs a dark gradient behind it: `linear-gradient` from `#08090C` at
-  ~60–85% opacity on the text side, fading to transparent. Then set the text **white/cream**
-  (`#E8E4DC`). This is the default for photo slides.
+- **MANDATORY: darken the whole photo behind text.** This keeps failing — make it impossible
+  to skip. Whenever ANY text sits over a photo (even a light, airy one — NOT an exception), add
+  BOTH of these layers on top of the image, below the text:
+  1. A dark layer over the **ENTIRE** photo:
+     `<div style="position:absolute;inset:0;background:rgba(8,9,12,.45);"></div>`
+     (push toward `.55–.65` if the photo is bright or busy).
+  2. On top of that, a stronger gradient on the side where the text block sits:
+     `background:linear-gradient(to top, rgba(8,9,12,.85), rgba(8,9,12,0));`
+     (change `to top` to match the text position).
+  Then set the text **white/cream** (`#E8E4DC`); the teal accent word stays teal. The photo
+  must look visibly, obviously darker under the text. If you cannot read the text instantly at
+  a glance, darken more. **Never place dark text over a photo.**
 - **Do not use dark text over a photo** unless there is a genuinely large, uniformly light,
   empty area. Busy or mid-tone photos swallow dark text (a real failure we hit — the grey-teal
   text vanished on a light photo). When unsure: dark scrim + light text.
