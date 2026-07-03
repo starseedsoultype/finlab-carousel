@@ -250,16 +250,23 @@ Before placing any text on an image, **look at the actual image** (read/inspect 
 understand what is in it — where the subject, face, or focal object sits, and where the
 empty/quiet areas are. Then:
 
-- Place headline and body text in the **empty negative space**, never across the face or the
-  main subject.
-- If the busy part of the image is top, put text bottom; if it is on one side, put text on the
-  other. Choose the composition per image, do not use a fixed position.
-- Always guarantee readability: add a **gradient scrim** behind the text
-  (`linear-gradient` from the slide background color at ~70–85% opacity fading to transparent)
-  on the side where the text sits. On dark theme fade from `#08090C`, on light from `#FFFFFF`.
-- Match text color to the area underneath: white/cream text over dark image regions, dark text
-  over light regions. If unsure, add the scrim and use the theme's default text color.
-- The teal accent word rule still applies on top of images.
+- **Text NEVER touches the face or the main subject. No exceptions.** The headline and body
+  must sit fully clear of the face, with margin. If the clear area is small, shrink or move the
+  text — never let a single word cross the face. A headline landing across someone's head is a
+  hard fail (this happened once — do not repeat it).
+- **On a full-bleed portrait (a person), place the text in the LOWER portion of the frame** —
+  the bottom third, or a solid color band at the bottom. Faces sit in the upper half, so a
+  top-anchored headline lands on the head. Keep the headline low and clear of the face.
+- **Always darken the photo behind text with a strong scrim.** Text over ANY photo — even a
+  light, airy one — needs a dark gradient behind it: `linear-gradient` from `#08090C` at
+  ~60–85% opacity on the text side, fading to transparent. Then set the text **white/cream**
+  (`#E8E4DC`). This is the default for photo slides.
+- **Do not use dark text over a photo** unless there is a genuinely large, uniformly light,
+  empty area. Busy or mid-tone photos swallow dark text (a real failure we hit — the grey-teal
+  text vanished on a light photo). When unsure: dark scrim + light text.
+- Match the text zone to the photo: busy top → text bottom; busy on one side → text on the
+  other. Per image, never a fixed slot.
+- The teal accent word still applies on top of images (teal on the light text).
 
 ### Narrative structure
 1. **Hook** — bold claim + a teaser line like "Here is the exact map". End with a teal
