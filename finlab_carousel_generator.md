@@ -220,13 +220,28 @@ Same shape, brand color. Swap the fill `#1d9bf0` → `#2A9E8F` (light) or `#3BBF
 Photos are **prepared in advance**, not pasted into chat at generation time. The automated
 Cloud Routine reads them from a known folder in the repo: **`carousel-assets/photos/`**
 (Olesya refills it in batches). When generating, look at what photos are actually in that
-folder and assign them to slides.
+folder and assign them to slides. Read **only the image files directly in
+`carousel-assets/photos/`** — ignore the `carousel-assets/photos/_used/` subfolder (that holds
+already-retired photos and must never be reused).
 
 - **Fewer photos than slides is normal and fine.** Feature photos on the hook, the CTA, and
   one or two mid-deck slides. The remaining slides are **clean text-only** compositions
   (typography + layout carry them) — never add a blob or filler shape just to compensate for a
   missing photo.
 - Only ask the user *which* photo for a given slide, never *if* a photo exists (see workflow).
+
+### After delivery: retire used photos (automatic cleanup)
+
+Once the carousel PNGs are delivered to Telegram **successfully (and only then)**, retire the
+photos this carousel actually used so they never appear in a future carousel:
+
+- For each photo you used from `carousel-assets/photos/`, move it into
+  `carousel-assets/photos/_used/` with `git mv`.
+- Then commit (message `chore: retire used carousel photos`) and `git push origin main`.
+- Do this **only after successful delivery**. If the push fails (permissions, conflict, etc.),
+  do NOT treat it as an error — skip it silently and finish the run.
+- Never touch photos you did not use. Never delete or move anything outside
+  `carousel-assets/photos/`.
 
 ### Images: full-bleed, fill the frame
 
