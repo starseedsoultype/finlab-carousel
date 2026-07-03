@@ -143,23 +143,38 @@ skill is unavailable — the script below is kept only as a fallback reference.
 Each slide is a distinct composition on a solid FinLab background. Slides do **not** all
 share one header — variety is the point. Pull from these building blocks:
 
-### Layout variety (mandatory — never let the deck feel monotonous)
+### Layout variety — rotate slide ARCHETYPES (mandatory)
 
-The single biggest failure mode is every slide looking the same: headline top, body middle,
-same size, same position. Kill that. Enforce real variety:
+The single biggest failure mode is every slide sharing one skeleton (headline top, body
+middle, same size). Kill that. Variety comes from giving each slide a distinct **archetype** —
+a fundamentally different kind of composition — tied to its role, and never repeating an
+archetype on two consecutive slides.
 
-- **No two consecutive slides share the same composition.** If slide N anchors text at the
-  top, slide N+1 must not — move it, resize it, or change the mode.
-- **Rotate the text anchor** across the deck: top-left / bottom / centered band / split
-  left-right / full-bleed photo with corner overlay. Pick per slide, never a fixed slot.
-- **Vary the density.** Some slides are ONE oversized line and nothing else. Others carry a
-  short 2–3 item list. Others are a single sentence in the lower third. Alternate heavy and
-  light slides so the eye gets rhythm, not a wall.
-- **Vary headline scale.** The hook can be huge; a mid-deck point can be medium with more
-  breathing room. Do not lock one font size for all titles.
-- **Alternate slide modes** so neighbours differ in kind, not just wording: big-type slide →
-  photo slide → list slide → number/stat slide → callout slide. Mixing modes is what makes it
-  read like an editorial spread instead of a template.
+**Archetype library** (each looks fundamentally different — pick per slide by its role):
+
+1. **Cover / hook** — oversized Libre Franklin 900, one word dominates; or full-bleed photo
+   with the title tucked in a corner.
+2. **Big number** — one huge numeral fills the frame (e.g. `5`), tiny label beside it.
+3. **Full-bleed photo + one line** — photo fills the slide, a single line sits in the empty
+   negative space over a gradient scrim.
+4. **List / steps** — left-aligned numbered rows with `→`, generous spacing.
+5. **Statement / quote** — one sentence centered, lots of whitespace, alignment different
+   from its neighbours.
+6. **Split** — the frame divided: half solid color block / half photo, or half type / half
+   image.
+7. **Index / contents** — a numbered "what's inside" menu.
+8. **CTA** — a distinct closing composition (never a reused point layout).
+
+**Rotation rules:**
+- Assign every slide ONE archetype by its narrative role (Hook → point/proof → … → CTA).
+- **No two consecutive slides use the same archetype, alignment, or text position.**
+- **Light/dark rhythm:** alternate clean-white and near-black (`#08090C`) slide backgrounds
+  across the deck so the eye gets rhythm, not a wall. Keep fonts + teal accent constant so it
+  still reads as one cohesive set.
+- **Vary type scale + density:** some slides are ONE giant word, others a short 2–3 item list,
+  others a single sentence in the lower third. Never lock one headline size for all slides.
+- **Panorama (optional, premium):** a background element that continues across 2–3 slides so
+  the swipe feels seamless. Use sparingly; skip it if it complicates the render.
 
 ### Typography rules
 - **Headlines are ALL CAPS.** Every hook and section headline is uppercase
@@ -172,21 +187,19 @@ same size, same position. Kill that. Enforce real variety:
   same idea as the reference where a word turns blue, but always FinLab teal, never a
   foreign blue. Color only one word or short phrase, never the whole line.
 
-### Slide types
-| Slide | Purpose | Recipe |
+### Slide roles → archetypes
+| Slide | Role | Archetype (from the library above) |
 |---|---|---|
-| 1 — Hook | Bold claim + teaser | Oversized Libre Franklin 900 headline (ALL CAPS), optional teal blob behind it (only if no photo carries the slide), optional cutout object, one accent line in teal |
-| 2–6 — Points | One idea per slide | "POINT N: [TITLE]" (Libre Franklin 900, caps) + Manrope body + `→` arrows for lists + one teal highlight line |
-| Callout (optional) | Social-proof / relatable aside | Speech-bubble card (see below) with recolored verified badge |
-| 7 — CTA | Recap result + follow prompt | Bold headline + short body + teal CTA line (no pill button) |
+| 1 — Hook | Stop the scroll | Cover/hook or full-bleed photo; one accent line in teal. No decorative shapes. |
+| 2 to N-1 — Points | One idea per slide | Rotate archetypes: big-number / list-steps / statement / split / full-photo — each slide a different one from its neighbour |
+| Callout (optional) | Relatable / social-proof aside | Speech-bubble card with recolored verified badge |
+| Final — CTA | Recap result + follow prompt | Distinct CTA composition, short body, teal CTA line (no pill button) |
 
 ### Visual devices (mix across slides — never all on one)
-- **Blob shapes** — organic teal (`#2A9E8F` at ~16–100% opacity) or gold shapes behind
-  the headline. Use a smooth SVG `<path>`, not a plain circle. **Blobs are a rare accent,
-  never a filler.** Do NOT add a blob to a slide just because it has no photo. A slide without
-  a photo is carried by typography, scale, and layout — a text-only slide should look
-  intentional and clean, not decorated with a blob to fill empty space. Use blobs on at most
-  one or two slides in the whole deck, and only where they genuinely strengthen the hook.
+- **NO BLOBS. EVER.** Do not draw blobs, organic shapes, or decorative colored splotches on
+  any slide, for any reason. They read as cheap filler and are banned. A slide's interest
+  comes from its archetype, photo, type scale, and light/dark background — never from a
+  decorative shape.
 - **Cutout objects / photos** — a single subject (object, product, or portrait) cut out or
   bled to an edge. One per hook/CTA slide max.
 - **Arched / curved text** — a short headline on an SVG `<textPath>` following a curve, for
