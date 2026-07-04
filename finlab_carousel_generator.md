@@ -224,10 +224,16 @@ folder and assign them to slides. Read **only the image files directly in
 `carousel-assets/photos/`** — ignore the `carousel-assets/photos/_used/` subfolder (that holds
 already-retired photos and must never be reused).
 
-- **Fewer photos than slides is normal and fine.** Feature photos on the hook, the CTA, and
-  one or two mid-deck slides. The remaining slides are **clean text-only** compositions
-  (typography + layout carry them) — never add a blob or filler shape just to compensate for a
-  missing photo.
+- **When photos exist in `carousel-assets/photos/`, you MUST use them. A color-only or fully
+  text-only carousel while photos are available is a FAILURE.** Feature real photos on at least
+  the hook, the CTA, and one or two mid-deck slides (aim for roughly half the deck carrying a
+  photo).
+- **Embed each used photo as a base64 data-URI in the HTML** — read the image file's bytes and
+  encode them into `<img src="data:image/...;base64,…">` or a CSS `background-image`. Do NOT
+  reference a photo by file path or filename: that path does NOT resolve when the slide is
+  rendered to PNG, which is exactly what produces a blank, color-only slide. After rendering,
+  verify each photo is actually visible on its slide (a real image, not an empty colored area).
+- Slides not designated for a photo are clean typography — never a blob or filler shape.
 - Only ask the user *which* photo for a given slide, never *if* a photo exists (see workflow).
 
 ### After delivery: retire used photos (automatic cleanup)
