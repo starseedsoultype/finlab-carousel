@@ -224,8 +224,13 @@ Photos are **prepared in advance**, not pasted into chat at generation time. The
 Cloud Routine reads them from a known folder in the repo: **`carousel-assets/photos/`**
 (Olesya refills it in batches). When generating, look at what photos are actually in that
 folder and assign them to slides. Read **only the image files directly in
-`carousel-assets/photos/`** — ignore the `carousel-assets/photos/_used/` subfolder (that holds
-already-retired photos and must never be reused).
+`carousel-assets/photos/`** (ignore the `_used/` subfolder if present).
+
+**Before choosing photos, exclude the ones already used.** Call
+`GET https://ogqtywdsplyqwfznqxnu.supabase.co/functions/v1/finlab-used-photos` — it returns
+`{"used": ["name1.png", ...]}`. Do NOT use any photo whose filename is in that list; pick only
+from the remaining fresh photos. (If somehow every photo is already used, reuse is unavoidable,
+but normally there are plenty fresh.)
 
 - **When photos exist in `carousel-assets/photos/`, you MUST use them. A color-only or fully
   text-only carousel while photos are available is a FAILURE.** Feature real photos on at least
@@ -239,18 +244,17 @@ already-retired photos and must never be reused).
 - Slides not designated for a photo are clean typography — never a blob or filler shape.
 - Only ask the user *which* photo for a given slide, never *if* a photo exists (see workflow).
 
-### After delivery: retire used photos (automatic cleanup)
+### After delivery: record the photos you used
 
-Once the carousel PNGs are delivered to Telegram **successfully (and only then)**, retire the
-photos this carousel actually used so they never appear in a future carousel:
+Once the carousel PNGs are delivered to Telegram **successfully (and only then)**, record which
+photos this carousel used, so they are never reused. Call:
+`POST https://ogqtywdsplyqwfznqxnu.supabase.co/functions/v1/finlab-used-photos`
+with JSON body `{"filenames": ["exact-name-1.png", "exact-name-2.png"]}` — the exact filenames
+you used from `carousel-assets/photos/`. If the call fails, do not treat it as an error, just
+finish.
 
-- For each photo you used from `carousel-assets/photos/`, move it into
-  `carousel-assets/photos/_used/` with `git mv`.
-- Then commit (message `chore: retire used carousel photos`) and `git push origin main`.
-- Do this **only after successful delivery**. If the push fails (permissions, conflict, etc.),
-  do NOT treat it as an error — skip it silently and finish the run.
-- Never touch photos you did not use. Never delete or move anything outside
-  `carousel-assets/photos/`.
+Do NOT move, delete, rename, or `git push` any files — this repo is read-only for the routine.
+Photo usage is tracked **only** through this endpoint (paired with the exclusion GET above).
 
 ### Images: full-bleed, fill the frame
 
