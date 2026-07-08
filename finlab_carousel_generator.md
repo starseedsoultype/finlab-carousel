@@ -428,3 +428,28 @@ asyncio.run(export_slides())
 2. Tell the AI: "Make me a FinLab carousel about [topic]".
 3. Review the preview, request changes to specific slides.
 4. Export as PNGs and post.
+
+---
+
+## Audience layer (LAB Profile) — optional `+ауд` tag in the topic
+
+If the incoming topic contains a tag `+ауд N[,M[,K]]` (numbers or pole names), write ALL
+copy in the "language of influence" of those poles, using the trigger / avoid
+vocabularies in `references/audience_rewriter.md`. The tag itself must NEVER appear in
+any output text.
+
+Pole numbers:
+1 Достигаторы · 2 Уходящие от проблем · 3 Внутренние · 4 Внешние · 5 Варианты ·
+6 По шагам · 7 Проактивные · 8 Реактивные · 9 Детальные · 10 Общая картина ·
+11 Стабильность · 12 Эволюция · 13 Новое
+
+Rules:
+- Up to 3 poles per combination. Opposite poles of the same axis (1|2, 3|4, 5|6, 7|8,
+  9|10, 11|12|13) are invalid together — in that case skip the audience layer, write in
+  the default voice, and note the conflict in the delivery message.
+- A/B variants via `|`: `+ауд 1,4,7 | 2,4,8` → produce every requested output in BOTH
+  versions, clearly labeled (Вариант А / Вариант Б).
+- No tag → default calm FinLab voice, as usual.
+- The audience layer changes the wording layer only. Meaning, facts, format structure,
+  and ALL BRAND.md rules (zero dashes, zero negations, hard bans) stay on top and always
+  win over any trigger vocabulary.

@@ -41,3 +41,14 @@ CTA: <одна строка>
 ```
 
 Keep it tight. Every line earns its place.
+
+---
+
+## Audience layer (LAB Profile) — optional `+ауд` tag in the topic
+
+If the topic carries `+ауд N[,M[,K]]`, write this output in the "language of influence"
+of those poles using `references/audience_rewriter.md` (pole numbering and full rules:
+see the "Audience layer" section in `finlab_carousel_generator.md`). Up to 3 poles;
+opposite poles of one axis are invalid (then use default voice and note the conflict);
+`|` produces labeled A/B variants; the tag never appears in the output. The audience
+layer changes wording only — BRAND.md rules always win.
