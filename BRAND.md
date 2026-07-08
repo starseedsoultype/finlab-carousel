@@ -59,9 +59,10 @@ to the same funnel, never to female-coded copy.
 
 ## Funnel standard
 
-CTA priority: a keyword to DM (ManyChat picks it up) or the bot @finlabo_bot. The path
-is ad/post → директ → free 15-minute session → cohort. Never send cold people to the
-landing as the first touch.
+CTA priority: a keyword to DM or the bot @finlabo_bot. DMs are answered manually by
+Olesya using saved quick replies in Meta Business Suite (no DM automation is connected).
+The path is ad/post → директ → free 15-minute session → cohort. Never send cold people
+to the landing as the first touch.
 
 ## Two visual lines
 
