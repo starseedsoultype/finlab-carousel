@@ -1,5 +1,7 @@
 # FinLab — Telegram post guide
 
+**Read `BRAND.md` in this repo first — positioning, voice formula, and hard bans live there and override anything below.**
+
 This produces a **ready-to-post Telegram text** from a topic, in Olesya's personal Russian
 voice. She copies it straight into her channel.
 

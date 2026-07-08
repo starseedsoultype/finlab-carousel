@@ -1,5 +1,7 @@
 # FinLab — Reels / short-video SCRIPT guide
 
+**Read `BRAND.md` in this repo first — positioning, voice formula, and hard bans live there and override anything below.**
+
 This produces a **script + on-screen text + caption + hashtags + shot ideas** from a topic.
 It does NOT produce a finished video — Olesya films and edits it herself. Write the plan she
 can shoot.
