@@ -13,9 +13,13 @@ activates the brain's associative networks and brings unconscious money patterns
 awareness. Author and host: **Олеся Бриз** (psychologist, MAC practitioner). She is one
 person, there is no team; sign as Olesya, never "мы" as a brand.
 
-Formats: 7-day online lab (daily live sessions 18:00 МСК + bot tasks + AI feedback),
-a new live cohort starts every month; self-paced format; free 15-minute sessions;
-offline game-protocols (Koh Phangan). Bot: @finlabo_bot. Landing:
+Formats: online lab of **7 шагов** (bot tasks + AI feedback; the live cohort adds
+daily live sessions 18:00 МСК and starts every month); self-paced format; free
+15-minute sessions; offline game-protocols (Koh Phangan). **Framing:** the evergreen /
+self-paced protocol is «шаги», never «дни» — «шаг 3», not «день 3»: each person moves
+at her own pace. Promo for a specific live cohort may honestly say «дни» (its live
+sessions do run daily); switch those assets to «шаги» when they become evergreen.
+Bot: @finlabo_bot. Landing:
 https://starseedsoultype.github.io/finlab/
 
 FinLab is **NOT** about stock markets, trading, investing, or financial analytics.
@@ -67,7 +71,10 @@ to the landing as the first touch.
 ## Two visual lines
 
 - **Editorial** (this repo's carousels, landing, docs): white `#FFFFFF` / near-black
-  `#08090C`, Libre Franklin 900 caps + Manrope, teal accent. No blobs, ever.
+  `#08090C`, Libre Franklin 900 caps + Manrope, teal accent + **pink secondary accent**
+  (`#E05B78` on light, `#F27E9F` on dark) that bridges to the neuro-glass line. Teal
+  leads; pink appears on a minority of slides, max one pink element per slide. No
+  blobs, ever.
 - **Pink neuro-glass** (reels covers, female ads): pink brain in holographic glass
   world, neon neurons, black bg; hero image is the butterfly-brain. Category is always
   "money and mind", never beauty.

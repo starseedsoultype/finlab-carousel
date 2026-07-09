@@ -48,7 +48,7 @@ Two themes. Default to **light** unless the user asks for dark.
 | Accent (teal) | `#2A9E8F` | Hook text, CTA, key highlights |
 | Accent light | `#3BBFAE` | Gradient partner for teal |
 | Gold | `#C9A96E` | Background plates and dividers ONLY — NEVER as text (fails contrast on white). Gold-toned text = `#7A5D2E` |
-| Pop | `#E05B78` | Rare single pop (like bestinmedia's orange) — use sparingly |
+| Pink | `#E05B78` | Secondary accent (bridges the pink neuro-glass line): accent word, kicker, or stat number. Max ONE pink element per slide, pink on a minority of slides |
 
 ### Dark theme
 | Token | Hex | Usage |
@@ -58,7 +58,7 @@ Two themes. Default to **light** unless the user asks for dark.
 | Muted | `#8A8880` | @handle, secondary text, counters (acceptable on dark bg only) |
 | Accent (teal) | `#3BBFAE` | Hook text, CTA, key highlights (lighter reads better on dark) |
 | Gold | `#C9A96E` | Background plates and dividers ONLY — never as text |
-| Pop | `#E05B78` | Rare single pop — use sparingly |
+| Pink | `#F27E9F` | Secondary accent on dark (lighter reads better than `#E05B78`) — same limits as light |
 | Line | `rgba(255,255,255,.07)` | Hairline borders |
 
 Gradient (progress bar fill):
@@ -189,6 +189,10 @@ archetype on two consecutive slides.
   accent **teal** (`#3BBFAE` on dark, `#2A9E8F` on light). This is the signature move —
   same idea as the reference where a word turns blue, but always FinLab teal, never a
   foreign blue. Color only one word or short phrase, never the whole line.
+- **Pink variant.** On one or two slides per deck the accent word may be **pink**
+  (`#E05B78` on light, `#F27E9F` on dark) instead of teal — it ties the deck to the pink
+  neuro-glass reels line. Never mix a teal word and a pink word in one headline. The
+  progress bar, CTA line, and verified badge always stay teal.
 
 ### Slide roles → archetypes
 | Slide | Role | Archetype (from the library above) |
