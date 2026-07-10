@@ -43,6 +43,9 @@ this frame:
 One-line formula (write «это», never a dash): «Твой мозг это твой главный финансовый
 актив. ФинЛаб это лаборатория, где ты учишься им распоряжаться.»
 
+Standard kicker for carousels and reel covers: **ФИНЛАБ · НЕЙРОПСИХОЛОГИЯ ДЕНЕГ**
+(replaces ad-hoc variants like «ФИНЛАБ · 7 ДНЕЙ»).
+
 ## Voice formula (mandatory in every piece)
 
 **Нежная снаружи, точная внутри.** Form is always soft: calm pace, warmth, direct
