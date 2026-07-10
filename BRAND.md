@@ -25,6 +25,24 @@ https://starseedsoultype.github.io/finlab/
 FinLab is **NOT** about stock markets, trading, investing, or financial analytics.
 Money topics always mean inner work with a goal, never markets.
 
+## Core metaphor (locked July 2026 — the niche in one move)
+
+**Мозг это главный финансовый актив женщины.** The most expensive thing she owns:
+полтора килограмма, которые заработали ей всё, что у неё есть. Everything hangs off
+this frame:
+
+- **Pink neuro-glass visuals** = витрина актива (luxury is appropriate: we display a
+  jewel, not an illness).
+- **Лаборатория** = сервисный центр актива: диагностика, настройка, апгрейд. NEVER a
+  hospital for the broken, never «выход из сложностей» — rescue frames are banned;
+  FinLab sells access and upgrade, not salvation (same logic as the zero-negation rule).
+- **МАК-карты** = приборы доступа (рентген, микроскоп): через них актив видно.
+- **Деньги** = производная настройки мозга, never the other way around.
+- **7 шагов** = регламент техобслуживания.
+
+One-line formula (write «это», never a dash): «Твой мозг это твой главный финансовый
+актив. ФинЛаб это лаборатория, где ты учишься им распоряжаться.»
+
 ## Voice formula (mandatory in every piece)
 
 **Нежная снаружи, точная внутри.** Form is always soft: calm pace, warmth, direct
