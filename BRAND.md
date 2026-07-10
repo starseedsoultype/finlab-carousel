@@ -84,10 +84,12 @@ to the same funnel, never to female-coded copy.
 
 ## Funnel standard
 
-CTA priority: a keyword to DM or the bot @finlabo_bot. DMs are answered manually by
-Olesya using saved quick replies in Meta Business Suite (no DM automation is connected).
-The path is ad/post → директ → free 15-minute session → cohort. Never send cold people
-to the landing as the first touch.
+CTA priority: a keyword to DM or the bot @finlabo_bot. DM layer is hybrid (native Meta
+Business Suite, still zero ManyChat): custom-keyword auto replies for ШАГ (asset formula
++ bot link) and ИГРА (live game booking), FAQ buttons for cold openers, and Olesya's
+saved replies («шаг»/«игра»/«сессия») for the live second message. Machine opens,
+Olesya closes. The path is ad/post → директ → free 15-minute session → cohort. Never
+send cold people to the landing as the first touch.
 
 ## Two visual lines
 
