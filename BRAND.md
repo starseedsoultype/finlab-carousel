@@ -25,6 +25,14 @@ https://starseedsoultype.github.io/finlab/
 FinLab is **NOT** about stock markets, trading, investing, or financial analytics.
 Money topics always mean inner work with a goal, never markets.
 
+## Prices (set 11 July 2026 — first written price list)
+
+- Живой поток: 7 777 ₽ (ранняя цена 5 555 ₽, дедлайн задаётся на поток)
+- В своём темпе (evergreen): 1 111 ₽
+- Вдвоём с подругой: 2 777 ₽ с каждой
+- Индивидуальная сессия: **800 ฿ в час** (entry price; revisit after the first five paid clients)
+- Живая игра-лаборатория (Панган, 4 часа, 6 мест): **1 600 ฿**
+
 ## Core metaphor (locked July 2026 — the niche in one move)
 
 **Мозг это главный финансовый актив женщины.** The most expensive thing she owns:
