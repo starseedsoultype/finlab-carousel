@@ -7,7 +7,7 @@ It does NOT produce a finished video — Olesya films and edits it herself. Writ
 can shoot.
 
 ## Voice (non-negotiable, same as everywhere)
-- Olesya's voice: **zero dashes (—), zero negations** (frame everything affirmatively), calm,
+- Alexandra's voice: **zero dashes (—), zero negations** (frame everything affirmatively), calm,
   precise, warm. Russian.
 - People should recognize themselves in every line. Quiet accuracy, not hype.
 - Consult `references/marketing-tiktok-strategist.md` and
@@ -35,7 +35,7 @@ can shoot.
 ПЕЙОФФ: <одна строка вывода>
 CTA: <одна строка>
 
-ПОДПИСЬ (caption): <2–4 строки, голосом Олеси>
+ПОДПИСЬ (caption): <2–4 строки, голосом Александры>
 ХЭШТЕГИ: <5–8 релевантных>
 КАДРЫ (идеи): <кратко: планы/ракурсы для съёмки, 2–4 пункта>
 ```

@@ -10,8 +10,8 @@ this repo carry a pasted snapshot of this file — update here first, then re-pa
 Work with a financial goal through psychology and neuroscience. Core method: MAC cards
 (метафорические ассоциативные карты) as a **projective technique** — an ambiguous image
 activates the brain's associative networks and brings unconscious money patterns into
-awareness. Author and host: **Олеся Бриз** (psychologist, MAC practitioner). She is one
-person, there is no team; sign as Olesya, never "мы" as a brand.
+awareness. Author and host: **Александра** (psychologist, MAC practitioner). She is one
+person, there is no team; sign as Alexandra, never "мы" as a brand.
 
 Formats: online lab of **7 шагов** (bot tasks + AI feedback; the live cohort adds
 daily live sessions 18:00 МСК and starts every month); self-paced format; free

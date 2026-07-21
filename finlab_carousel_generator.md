@@ -18,8 +18,8 @@ screenshot. Think clean magazine spread, not a corporate slide deck.
 | Detail | Value |
 |---|---|
 | Brand name | **FinLab** |
-| Instagram handle | **@olesyabreeze** |
-| Display name | **Olesya** |
+| Instagram handle | **@alexandra_source** |
+| Display name | **Alexandra** |
 | Headline font | **Libre Franklin** (weight 900 Black, ALL CAPS) |
 | Body font | **Manrope** (weights 300–500) |
 | Tone | Calm, psychologically precise, affirmative. Quiet accuracy that feels like magic. |
@@ -77,7 +77,7 @@ These are permanent FinLab / Olesya rules. Break them and the carousel is wrong.
 3. **Calm and precise.** Every line should make the reader recognize themselves. Quiet
    accuracy, not spiritual performance and not hype.
 4. **Short paragraphs.** 1–2 sentences each. Liberal line breaks for readability.
-5. **Sign off as Olesya**, never "the team", if a signature appears.
+5. **Sign off as Alexandra**, never "the team", if a signature appears.
 
 ### Copywriting references (read these before writing any slide text)
 
